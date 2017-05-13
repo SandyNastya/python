@@ -1,6 +1,7 @@
 import os
 
-path = os.path.abspath(os.path.dirname(__file__))+'Coding_605_Sandimirova.html'
+path = os.path.abspath(os.path.dirname(__file__))
+path = os.path.join(path, 'Coding_605_Sandimirova.html')
 
 f = open(path,'w')
 f.write('<!DOCTYPE html>\n')

@@ -13,7 +13,7 @@ n = ''
 for i in range(1, 11):
     f.write('<p>')
     for j in range(1, 11):
-        if(j == 1):
+        if(j == 1):#для красоты
             n = str(i) + ' x ' + str(j) + ' = ' + str(i)
             f.write(n)
         else:
